@@ -77,9 +77,34 @@ DirectoryWatcher.create('./xmls', function(err, watcher) {
     });
 
     watcher.on('add', function(files) {
-       for(let i = 0; i < 10; i++) {
-		console.log('dfsdfsdf')
-	   }
+		files.forEach(element => {
+			fs.readFile(__dirname + '/xmls/'+ element, 'utf8',async (err, data) => {
+				if(err) console.log(err);
+				const json = parser.toJson(data);
+				const programm = JSON.parse(json).tv.programme;
+				const array = programm.map((el,i) => {
+					let desc = '';
+					if(el.desc) {
+						if(el.desc['$t'].length > 120) {
+							desc = el.desc['$t'].substr(0,120) + '...'
+						} else {
+							desc = el.desc['$t']
+						}
+					}
+					let startDate = el.start.split(' ');
+					let endDate = el.stop.split(' ');
+					return {
+						key: el.channel,
+						startDate: moment(+startDate[0]).utc(startDate[1]).format('YYYY-DD-MM HH:mm'),
+						endDate: moment(+endDate[0]).utc(endDate[1]).format('YYYY-DD-MM HH:mm'),
+						title: el.title? el.title['$t'] : '',
+						description: desc
+					}
+				})
+				await models.epg.bulkCreate(array)
+			} )
+		});
+      
     });
 });
 //load passport strategies
