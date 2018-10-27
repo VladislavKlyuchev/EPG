@@ -1,8 +1,8 @@
 {
 	"development": {
 		"username": "root",
-		"password": "qwerty",
-		"database": "epg",
+		"password": "tvgpasswd44",
+		"database": "EPG",
 		"host": "127.0.0.1",
 		"dialect": "mysql"
 	},
