@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tv source-data-url="http://tvprofil.net/xmltv/" source-info-name="Phazer XML servis 4.6" source-info-url="http://tvprofil.net">
+<channel id="htv1.hr">
+<display-name>HTV1</display-name>
+<url>http://www.hrt.hr</url>
+<icon src="http://phazer.info/img/kanali/hrt1.png" />
+</channel>
+<programme channel="htv1.hr" start="20181010063500 +0200" stop="20181010065500 +0200">
+<title lang="hr">TV Kalendar</title>
+<category lang="hr">show</category>
+<desc lang="hr">TV kalendar, jedna od najdugovječnijih emisija na Hrvatskoj televiziji, prvi je put emitiran na Radio-televiziji Zagreb u subotu 3. siječnja 1976. u 15.30, prije točno 35 godina. Svih tih godina uređivali su ga Vladimir Fučijaš i Obrad Kosovac. Prvi suradnici bili su dobar poznavalac zagrebačke povijesti Pavao Cindrić i svestrani stručnjak za likovnu umjetnost Matko Peić. Poslije se postupno širio krug autora, ali je jezgru redakcije uvijek činilo samo nekoliko ljudi. Od početka osnovni kriterij... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010065500 +0200" stop="20181010070000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010070000 +0200" stop="20181010071100 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010071100 +0200" stop="20181010080000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010080000 +0200" stop="20181010081100 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010081100 +0200" stop="20181010090000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010090000 +0200" stop="20181010091100 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010091100 +0200" stop="20181010100000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010100000 +0200" stop="20181010101000 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010101000 +0200" stop="20181010101900 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010101900 +0200" stop="20181010110800 +0200">
+<title lang="hr">Veterinar Engel, serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Quirin Engel opet odlazi starom seljaku Bechtholdu. Kad god je starac usamljen, izmisli kao izliku neku bolest svoje dobroćudne kuje Sissi kako bi s veterinarom mogao popiti rakiju i pripovijedati svoje stare priče.
+Uloge: Wolfgang Fierek (dr. Quirin Engel), Susanne Czepl (Angelika Engel), Theresia Fendt (Anja Engel), Fabian König (Sebastian Engel) Veronika Fitz (Gerlinde Schneider), Julia Dahmen (Rebecca Seidlitz), Saskia Valencia (Sonja Liebmann)
+Redatelj: Werner Masten
+Urednica: Ranka Horvat</desc>
+<episode-num>8</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181010110800 +0200" stop="20181010113300 +0200">
+<title lang="hr">Eko zona</title>
+<desc lang="hr">O čistoj proizvodnji vodika za H2 vozila, o vremenu potrebnom za postizanje isplativosti i tehnološke zrelosti raznih tehnologija za spremanje vodika u vozila razgovaramo s doktorom Ibrahimom Dinḉerom sa Sveučilišta u kanadskom Ontariju.
+Osim gospodarske funkcije šumskog ekosustava, kao što je proizvodnja visokokvalitetne drvne građe, šume imaju i opće korisne funkcije. Takva je primjerice, očuvanje i zaštita biološke raznolikosti. Kako pomiriti ta dva različita interesa?
+Europska komisija upozo... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010113300 +0200" stop="20181010114100 +0200">
+<title lang="hr">Bonton: Kašljanje i kihanje za stolom</title>
+<desc lang="hr">Postoji cijeli niz pravila kojih bi se trebalo pridržavati u komunikaciji za stolom, a jedno od njih se odnosi i na fizičke reakcije. Ako ste prehlađeni, možda nećete ostati kod kuće zamotani u krevetu kao sarma, ali dvaput razmislite kako bi se vaša pratnja mogla osjećati uz često kihanje, kašljanje i ispuhivanje nosa, pogotovo ako je u pitanju romantična večera udvoje.
+Direktori fotografije: Igor Knežević i Davor Šarić</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181010114100 +0200" stop="20181010120000 +0200">
+<title lang="hr">TV Kalendar</title>
+<category lang="hr">show</category>
+<desc lang="hr">TV kalendar, jedna od najdugovječnijih emisija na Hrvatskoj televiziji, prvi je put emitiran na Radio-televiziji Zagreb u subotu 3. siječnja 1976. u 15.30, prije točno 35 godina. Svih tih godina uređivali su ga Vladimir Fučijaš i Obrad Kosovac. Prvi suradnici bili su dobar poznavalac zagrebačke povijesti Pavao Cindrić i svestrani stručnjak za likovnu umjetnost Matko Peić. Poslije se postupno širio krug autora, ali je jezgru redakcije uvijek činilo samo nekoliko ljudi. Od početka osnovni kriterij... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181010120000 +0200" stop="20181010121500 +0200">
+<title lang="hr">Dnevnik 1</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Najgledanija informativna emisija HRT-a s pregršt najnovijih vijesti iz zemlja i svijeta, reportaža, javljanja uživo, intervjua, sporta, vremena...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010121500 +0200" stop="20181010121800 +0200">
+<title lang="hr">Sport</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svakodnevne sportske vijesti odmah nakon dnevnika i prije prognoze vremena.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010121800 +0200" stop="20181010122600 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010122600 +0200" stop="20181010131600 +0200">
+<title lang="hr">Spone ljubavi, telenovela</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Magnolia je otela Helo. Yara i Silvia podupiru Cira. Pedro pita inspektora zna li gdje je Magnolia. Helo prepozna Herculesov glas tijekom njegova razgovora s Magnolijom. Helo nije dobro, ali Magnolia je ravnodušna. Počinje Cirovo suđenje. Leticia zove Pedra jer se brine za majku. Pedro odlazi u galeriju. Vidi tragove guma i zaključi da ju je Magnolia otela. Tiao i Pedro skupa traže Helo. Magnolia šalje poruku Tiau. Pedro moli Anu Luisu da bude uz Leticiju. Ana Luisa primijeti da su Antonio i Let... (više na http://tvprofil.net)</desc>
+<episode-num>141</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181010131600 +0200" stop="20181010140000 +0200">
+<title lang="hr">Dr. Oz, talk-show</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Queen Latifah otvoreno progovara o zdravstvenom pitanju koje opterećuje nju i njezinu obitelj. Poziva sve žene da postanu svjesne opasnosti. Upoznajte i učiteljicu-heroinu čija je brza reakcija spasila čitav njezin razred tijekom pucnjave u školi &quot;Sandy Hook&quot;. Prvi put otvoreno i javno govori o tragediji...
+Odabrala: Martina Rajšek</desc>
+<episode-num>23</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181010140000 +0200" stop="20181010142800 +0200">
+<title lang="hr">Potrošački kod</title>
+<desc lang="hr">Potrošački kod jedna je od najgledanijih emisija na HRT-u koja prati probleme vezane uz Zakon o zaštiti potrošača. Uređivana je od strane potrošača koji šalju svoja pitanja e-mailom i telefonskim putem koji se vežu uz određenu temu o kojoj se raspravlja.</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181010142800 +0200" stop="20181010150000 +0200">
+<title lang="hr">Otkrivamo Hrvatsku: Vrgorac, dokumentarni film</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Upoznajte mala mjesta koja možda dosad niste imali priliku ni vidjeti.
+Priče o povijesti, običajima, životu i planovima pričat će stanovnici tih mjesta. Poseban naglasak stavljen je na osobne priče iseljenika. Njihove priče pokazat će koliko su domovinska i iseljena Hrvatska međusobno povezane i nedjeljive.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010150000 +0200" stop="20181010155200 +0200">
+<title lang="hr">Dobar dan, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Nova poslijepodnevna emisija svaki će dan od 15 do 16 sati, od ponedjeljka do petka, pratiti aktualna zbivanja u svim segmentima života. Bavit će se problemima djece - zdrave i bolesne, starijima, zaposlenima i nezaposlenima, osobama s poteškoćama, ljudima koji se svakodnevno bore s teškim životnim uvjetima...
+Reporteri emisije bit će jednako prisutni i u gradu i na selu, pratit će humanitarne projekte...
+Na kraju svake emisije Dobar dan, Hrvatska naši najveći jezični stručnjaci analizirat će ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010155200 +0200" stop="20181010163500 +0200">
+<title lang="hr">Frankie Drake istražuje</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Frankie je unajmljena da potvrdi identitet mlade žene koja tvrdi da je ruska princeza i da je zaštiti od onih koji je žele vidjeti mrtvu.</desc>
+<episode-num>10</episode-num>
+<star-rating><value>7.3/10</value></star-rating>
+</programme>
+<programme channel="htv1.hr" start="20181010163500 +0200" stop="20181010164000 +0200">
+<title lang="hr">Bonton: Kašljanje i kihanje za stolom</title>
+<desc lang="hr">Postoji cijeli niz pravila kojih bi se trebalo pridržavati u komunikaciji za stolom, a jedno od njih se odnosi i na fizičke reakcije. Ako ste prehlađeni, možda nećete ostati kod kuće zamotani u krevetu kao sarma, ali dvaput razmislite kako bi se vaša pratnja mogla osjećati uz često kihanje, kašljanje i ispuhivanje nosa, pogotovo ako je u pitanju romantična večera udvoje.
+Direktori fotografije: Igor Knežević i Davor Šarić</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181010164000 +0200" stop="20181010170000 +0200">
+<title lang="hr">TV Kalendar</title>
+<category lang="hr">show</category>
+<desc lang="hr">TV kalendar, jedna od najdugovječnijih emisija na Hrvatskoj televiziji, prvi je put emitiran na Radio-televiziji Zagreb u subotu 3. siječnja 1976. u 15.30, prije točno 35 godina. Svih tih godina uređivali su ga Vladimir Fučijaš i Obrad Kosovac. Prvi suradnici bili su dobar poznavalac zagrebačke povijesti Pavao Cindrić i svestrani stručnjak za likovnu umjetnost Matko Peić. Poslije se postupno širio krug autora, ali je jezgru redakcije uvijek činilo samo nekoliko ljudi. Od početka osnovni kriterij... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181010170000 +0200" stop="20181010171400 +0200">
+<title lang="hr">Vijesti u 17</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Tijekom petnaest minuta gledateljima će biti ponuđen pregled svih relevantnih zbivanja koja su se dogodila tijekom dana, a posebice u razdoblju od podnevnoga Dnevnika do 17 sati.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010171400 +0200" stop="20181010171500 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010171500 +0200" stop="20181010172000 +0200">
+<title lang="hr">HAK - promet info</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Informacije o prometu, stanju i uvjetima na cestama od strane Hrvatskog Auto Kluba.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010172000 +0200" stop="20181010180900 +0200">
+<title lang="hr">Kod nas doma</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Stres, loše raspoloženje i negativne emocije loše utječu na zdravlje i na psihu. Srećom, postoji način da postanemo opušteniji i sretniji. Kako? Odgovor leži u jogi i meditaciji.
+Nakon toga razgovaramo o tremi, s kojom smo se mnogi susreli. Kako je nadvladati i preokrenuti je u pozitivnom smjeru, svojim iskustvom pomoći će vam Vanda Winter, koja je još uvijek osjeti, unatoč iskustvu i besprijekornim izvedbama na pozornici.
+Voditeljica: Barbara Kolar
+Scenaristice i urednice: Eleonora Korošić Knez... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010180900 +0200" stop="20181010185800 +0200">
+<title lang="hr">Potjera</title>
+<category lang="hr">show</category>
+<desc lang="hr">U Potjeri četiri natjecatelja odgovaraju na pitanja općeg znanja i istovremeno grade taktiku koja će ih dovesti do finalnog kruga. Međutim, na putu im stoji Lovac. To je neuobičajeni protivnik koji u uzbudljivoj igri znanja i brzine želi natjecatelje izbaciti iz igre i onemogućiti ih da osvoje desetke tisuća kuna.
+
+U voditeljskoj ulozi je Tarik Filipović. Kviz Potjera hrvatska je inačica popularnog kviza The Chase koji se na britanskom ITV-ju emitira od 2009. godine.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010185800 +0200" stop="20181010190000 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010190000 +0200" stop="20181010194400 +0200">
+<title lang="hr">Dnevnik 2</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Najgledanija informativna emisija HRT-a s pregršt najnovijih vijesti iz zemlja i svijeta, reportaža, javljanja uživo, intervjua, sporta, vremena...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010194400 +0200" stop="20181010194700 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010194700 +0200" stop="20181010195900 +0200">
+<title lang="hr">Tema dana</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Što je obilježilo današnji dan, o čemu ste razgovarali, što ste komentirali s obitelji i prijateljima? Tema dana obrađuje i analizira aktualne teme i događaje, koji su obilježili dan, dajući im širi kontekst, u koji su uključeni akteri i stručnjaci, politički lideri i dr. Po uzoru na emisije sličnog tipa s vodećih europskih televizijskih kuća - očekujte pitanja i intervjue koji idu u srž problema, s namjerom da se pojasni, informira i educira. Tema dana imat će goste u studiju ili izvan njega, u... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010195900 +0200" stop="20181010200500 +0200">
+<title lang="hr">Loto 7</title>
+<desc lang="hr">Pogodite 7 brojeva od 39 i osvojite milijunski Jackpot subotom ili srijedom.
+Srijedom i subotom u 20:05 pratite izvlačenje brojeva Hrvatske lutrije.</desc>
+</programme>
+
+<programme channel="htv1.hr" start="20181010200500 +0200" stop="20181010205500 +0200">
+<title lang="hr">Obitelj Trump: Od imigranta do predsjednika</title>
+<category lang="hr">film</category>
+<desc lang="hr">Film nam otkriva podrijetlo 45. predsjednika Sjedinjenih Država te što ono govori o njemu. Zahvaljujući nevjerojatnom arhivu, istražuje korijene Donalda Trumpa: od djeda Friedricha koji je bio imigrant iz Njemačke i koji je tijekom zlatne groznice postavio temelje budućeg obiteljskog bogatstva, služeći se zaradom od poroka i mutnim poslovima, do oca Freda, tajkuna koji se bavio nekretninama i majstora samopromocije. I dok svijet traži odgovor na pitanje tko je zaista Donald Trump, ovaj nam fasci... (više na http://tvprofil.net)</desc>
+<star-rating><value>4.6/10</value></star-rating>
+</programme>
+<programme channel="htv1.hr" start="20181010205500 +0200" stop="20181010211000 +0200">
+<title lang="hr">Preživljavanje: Priča o globalnom zdravlju - Naše osobne bolesti, dokumentarna serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Epizoda govori o produženom životnom vijeku ljudi te rastućem problemu kroničnih nezaraznih bolesti, tj. naših &quot;privatnih&quot; bolesti, poput bolesti srca i krvnih žila, zloćudnih tumora ili šećerne bolesti te psihičkih bolesti, bolesti pluća i autoimunih bolesti. Čut ćemo što ih uzrokuje te što možemo učiniti kako bismo ih spriječili i liječili.</desc>
+<episode-num>5</episode-num>
+</programme>
+<programme channel="htv1.hr" start="20181010211000 +0200" stop="20181010212700 +0200">
+<title lang="hr">Preživljavanje: Priča o globalnom zdravlju: Moramo li ostarjeti i umrijeti? dokumentarna serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Proces starenja i smrt danas su neminovni, ali bi se u doglednoj budućnosti mogli prevenirati, odnosno odgoditi. Naime, ograničenje naših stanica u broju dioba, kao i nakupljanja mutacija u našem genetskom kodu, te gubitak pamćenja koji nas s vremenom pogađa, problemi su za koje bi najnovija znanstvena istraživanja mogla ponuditi i neka neočekivana rješenja.</desc>
+<episode-num>6</episode-num>
+</programme>
+<programme channel="htv1.hr" start="20181010212700 +0200" stop="20181010220000 +0200">
+<title lang="hr">Pola ure kulture</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Magazin Pola ure kulture donosi nam aktualne novosti iz kulturno-umjetničkog svijeta.
+Najdugovječnija emisija iz kulture, svojim originalnim i polemičkim i inovativnim pristupom u obradbi tema postala je zaštitni znak kulture na HTV-u i najcitiranija kulturna emisija. Bavi se aktualnim temama iz umjetnosti i kulture, kulturne politike, ali i rubnim kulturnim fenomenima i pojavama. Emisiju je osmislila, uredila i vodila B. Kamenski.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010220000 +0200" stop="20181010225300 +0200">
+<title lang="hr">Otvoreno</title>
+<desc lang="hr">Vlada Andreja Plenkovića je na polovici mandata. Što je učinila u dvije godine, a što nije? Jesu li rast BDP-a i smanjivanje javnog duga zasjenjeni egzodusom mladih i političkim aferama? Koliko je hrvatsko društvo podijeljeno? Kakve reforme planiraju do kraja mandata? U Otvorenom Mislava Togonala gostuju Branko Bačić (HDZ), Gordan Maras (SDP), Hrvoje Zekanović (HRAST), Furio Radin (zastupnik talijanske manjine), Branimir Bunjac (Živi zid) i Milorad Batinić (HNS).
+Facebook pitanje: Što mislite o ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010225300 +0200" stop="20181010230800 +0200">
+<title lang="hr">Dnevnik 3</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Najgledanija informativna emisija HRT-a s pregršt najnovijih vijesti iz zemlja i svijeta, reportaža, javljanja uživo, intervjua, sporta, vremena...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010230800 +0200" stop="20181010231200 +0200">
+<title lang="hr">Sport</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svakodnevne sportske vijesti odmah nakon dnevnika i prije prognoze vremena.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010231200 +0200" stop="20181010231400 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010231400 +0200" stop="20181010232500 +0200">
+<title lang="hr">Vijesti iz kulture</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Informativna emisija usredotočena na kulturna događanja.
+Vijesti iz kulture donose nam pregled dnevnih i tjednih kulturnih događaja.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181010232500 +0200" stop="20181010234600 +0200">
+<title lang="hr">Brooklyn 99, humoristična serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Požar je uništio Charlesov mobilni restoran pa je na zgarište stigao Pimento (Jason Mantzoukas), koji sad radi kao agent osiguranja. Za to vrijeme Amy s Rosom traži vjenčanicu, dok Gina i Terry uvode Holta u svijet društvenih mreža.
+Uloge: Andy Samberg (detektiv Jake Peralta), Andre Braugher (kapetan Ray Holt), Terry Crews (narednik Terry Jeffords), Melissa Fumero (detektivka Amy Santiago), Joe Lo Truglio (detektiv Charles Boyle), Stephanie Beatriz (detektivka Rosa Diaz), Chelsea Peretti (Gina L... (više na http://tvprofil.net)</desc>
+<episode-num>18</episode-num>
+</programme>
+<programme channel="htv1.hr" start="20181010234600 +0200" stop="20181011002800 +0200">
+<title lang="hr">Frankie Drake istražuje</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Frankie je unajmljena da potvrdi identitet mlade žene koja tvrdi da je ruska princeza i da je zaštiti od onih koji je žele vidjeti mrtvu.</desc>
+<episode-num>10</episode-num>
+<star-rating><value>7.3/10</value></star-rating>
+</programme>
+<programme channel="htv1.hr" start="20181011002800 +0200" stop="20181011011400 +0200">
+<title lang="hr">Veterinar Engel, serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Quirin Engel opet odlazi starom seljaku Bechtholdu. Kad god je starac usamljen, izmisli kao izliku neku bolest svoje dobroćudne kuje Sissi kako bi s veterinarom mogao popiti rakiju i pripovijedati svoje stare priče.
+Uloge: Wolfgang Fierek (dr. Quirin Engel), Susanne Czepl (Angelika Engel), Theresia Fendt (Anja Engel), Fabian König (Sebastian Engel) Veronika Fitz (Gerlinde Schneider), Julia Dahmen (Rebecca Seidlitz), Saskia Valencia (Sonja Liebmann)
+Redatelj: Werner Masten
+Urednica: Ranka Horvat</desc>
+<episode-num>8</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181011011400 +0200" stop="20181011015500 +0200">
+<title lang="hr">Dr. Oz, talk-show</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Queen Latifah otvoreno progovara o zdravstvenom pitanju koje opterećuje nju i njezinu obitelj. Poziva sve žene da postanu svjesne opasnosti. Upoznajte i učiteljicu-heroinu čija je brza reakcija spasila čitav njezin razred tijekom pucnjave u školi &quot;Sandy Hook&quot;. Prvi put otvoreno i javno govori o tragediji...
+Odabrala: Martina Rajšek</desc>
+<episode-num>23</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181011015500 +0200" stop="20181011024500 +0200">
+<title lang="hr">Dobar dan, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Nova poslijepodnevna emisija svaki će dan od 15 do 16 sati, od ponedjeljka do petka, pratiti aktualna zbivanja u svim segmentima života. Bavit će se problemima djece - zdrave i bolesne, starijima, zaposlenima i nezaposlenima, osobama s poteškoćama, ljudima koji se svakodnevno bore s teškim životnim uvjetima...
+Reporteri emisije bit će jednako prisutni i u gradu i na selu, pratit će humanitarne projekte...
+Na kraju svake emisije Dobar dan, Hrvatska naši najveći jezični stručnjaci analizirat će ... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011024500 +0200" stop="20181011032600 +0200">
+<title lang="hr">Dolina sunca</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Shrvana tragičnom smrću supruga, mlada biokemičarka Eva Kralj (Ana Vilenica) skupi dovoljno snage za uputiti se u gradić Jablanovo odjaviti njegov ured i pritom skoro nastrada. Na prvi pogled ju oduševi pitomi krajolik Jablanova i ona iznenada, na zaprepaštenje sestre Stele (Barbara Prpić Biffel) odlučuje započeti novi život upravo u ovom provincijskom gradu. Obitelj Vitezović priprema svadbu za svog mlađeg sina Jurana (Petar Ćiritović) ne sumnjajući u motive njegove ženidbe s dobrodušnom Natašo... (više na http://tvprofil.net)</desc>
+<episode-num>31</episode-num>
+</programme>
+<programme channel="htv1.hr" start="20181011032600 +0200" stop="20181011035700 +0200">
+<title lang="hr">Pola ure kulture</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Magazin Pola ure kulture donosi nam aktualne novosti iz kulturno-umjetničkog svijeta.
+Najdugovječnija emisija iz kulture, svojim originalnim i polemičkim i inovativnim pristupom u obradbi tema postala je zaštitni znak kulture na HTV-u i najcitiranija kulturna emisija. Bavi se aktualnim temama iz umjetnosti i kulture, kulturne politike, ali i rubnim kulturnim fenomenima i pojavama. Emisiju je osmislila, uredila i vodila B. Kamenski.</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011035700 +0200" stop="20181011041100 +0200">
+<title lang="hr">Skica za portret</title>
+<category lang="hr">dokumentarni</category>
+<desc lang="hr">Upoznajte neke nove portrete ljudi koji su promijenili povijest Hrvatske.
+Biografije nekih manje poznatih ljudi koji su pridonijeli hrvatskoj kulturi i povijesti, a sada su nepravedno zaboravljeni.</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011041100 +0200" stop="20181011050000 +0200">
+<title lang="hr">Žene, povjerljivo! Putnice</title>
+<desc lang="hr">Ovo je emisija o ženama koju stvaraju žene za žene te sve ostale koji ne smatraju da naša polovica ljudskog roda Zemljom hoda samo zato da bi spremale sarmu.
+Rubrika Žena s terena novinarke Martine Validžić predstavljat će što se sve može učiniti da svakodnevna utrka žene sa svim obvezama prestane biti naporna i postane jednostavnija. U rubrici Da mogu novinarke Barbare Majstorović Ivezić žene različitoga godišta, zanimanja i društvenoga položaja zamišljat će što bi one učinile da mogu, a u rub... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011050000 +0200" stop="20181011054600 +0200">
+<title lang="hr">Kod nas doma</title>
+<category lang="hr">serija</category>
+<desc lang="hr">U novoj mozaičnoj emisiji Kod nas doma uživo od ponedjeljka do petka na Prvom programu HTV-a u svijet popularne kulture, glazbe, gastronomije, mode, hobija, arhitekture, dizajna, moderne psihologije vode vas Barbara Kolar i Iva Šulentić.
+Rubrika Dom donosi priče o stanovima, ljudima koji u njima žive, arhitektima i dizajnerima koji su te prostore prilagodili njihovim životnim potrebama i navikama.
+U rubrici Volim zeleno predstavljamo zanimljive ljude i nove trendove urbanoga vrtlarstva, zelenu... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011054600 +0200" stop="20181011063400 +0200">
+<title lang="hr">Spone ljubavi, telenovela</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Magnolia je otela Helo. Yara i Silvia podupiru Cira. Pedro pita inspektora zna li gdje je Magnolia. Helo prepozna Herculesov glas tijekom njegova razgovora s Magnolijom. Helo nije dobro, ali Magnolia je ravnodušna. Počinje Cirovo suđenje. Leticia zove Pedra jer se brine za majku. Pedro odlazi u galeriju. Vidi tragove guma i zaključi da ju je Magnolia otela. Tiao i Pedro skupa traže Helo. Magnolia šalje poruku Tiau. Pedro moli Anu Luisu da bude uz Leticiju. Ana Luisa primijeti da su Antonio i Let... (više na http://tvprofil.net)</desc>
+<episode-num>141</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181011063400 +0200" stop="20181011065500 +0200">
+<title lang="hr">TV Kalendar</title>
+<category lang="hr">show</category>
+<desc lang="hr">TV kalendar, jedna od najdugovječnijih emisija na Hrvatskoj televiziji, prvi je put emitiran na Radio-televiziji Zagreb u subotu 3. siječnja 1976. u 15.30, prije točno 35 godina. Svih tih godina uređivali su ga Vladimir Fučijaš i Obrad Kosovac. Prvi suradnici bili su dobar poznavalac zagrebačke povijesti Pavao Cindrić i svestrani stručnjak za likovnu umjetnost Matko Peić. Poslije se postupno širio krug autora, ali je jezgru redakcije uvijek činilo samo nekoliko ljudi. Od početka osnovni kriterij... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011065500 +0200" stop="20181011070000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011070000 +0200" stop="20181011071100 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011071100 +0200" stop="20181011080000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011080000 +0200" stop="20181011081100 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011081100 +0200" stop="20181011090000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011090000 +0200" stop="20181011091100 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011091100 +0200" stop="20181011091700 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011091700 +0200" stop="20181011093300 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011093300 +0200" stop="20181011100000 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011100000 +0200" stop="20181011101000 +0200">
+<title lang="hr">Vijesti</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svaki dan, kroz 10 minuta, poslušajte aktualne novosti...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011101000 +0200" stop="20181011102100 +0200">
+<title lang="hr">Dobro jutro, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Program koji vas budi svakog jutra nastao je godine 1992. Zamišljena je kao mozaička emisija koja na ležeran način informira o svim aktualnim i važnim događajima i temama. Bilo da je riječ o zdravlju , umjetnosti, politici, sportu , obrazovanju, kulinarstvu ili civilnom društvu novinarke i novinari Dobrog jutra spremni su na sve izazove. Gotovo se ništa važno u Hrvatskoj ne može dogoditi, a da to oni nisu zabilježili. Emisija počinje u 7.00 i traje službeno do 9.05, a u stvarnosti onoliko koliko... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011102100 +0200" stop="20181011110800 +0200">
+<title lang="hr">Veterinar Engel, serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Ulrich Hallhuber i Sibylle von Karlshagen u obilasku nekog planinskog sela s okružnim upraviteljem Solingerom sklapaju pogodbu. Solinger obećava novčanu potporu za Hallhuberove turističke planove, ali zauzvrat želi pravo na korištenje močvarne Tannhäuserove jame kao odlagališta otpada.
+Uloge: Wolfgang Fierek (dr. Quirin Engel), Susanne Czepl (Angelika Engel), Theresia Fendt (Anja Engel), Fabian König (Sebastian Engel) Veronika Fitz (Gerlinde Schneider), Julia Dahmen (Rebecca Seidlitz), Saskia Va... (više na http://tvprofil.net)</desc>
+<episode-num>9</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181011110800 +0200" stop="20181011114300 +0200">
+<title lang="hr">Samica dangubica, emisija pučke i predajne kulture</title>
+<desc lang="hr">U dokumentarnoj emisiji o prošlosti i sadašnjosti sviranja tambure samice na području Korduna i Like - koju ondje nazivaju tamburom (na Kordunu), ili kozaricom, dangubicom, kuterevkom (u Lici) - doznat ćemo kakve sve uspomene vežu njezine starije svirače s vremenima kad im je to glazbalo otvaralo put do djevojaka, a nekima bilo i izvor prihoda, te s kojim sve motivima tom glazbalu pristupaju današnji, pogotovo mlađi naraštaji, kad su vremena sasvim drukčija ali, unatoč tome, to glazbalo na podru... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011114300 +0200" stop="20181011120000 +0200">
+<title lang="hr">TV Kalendar</title>
+<category lang="hr">show</category>
+<desc lang="hr">TV kalendar, jedna od najdugovječnijih emisija na Hrvatskoj televiziji, prvi je put emitiran na Radio-televiziji Zagreb u subotu 3. siječnja 1976. u 15.30, prije točno 35 godina. Svih tih godina uređivali su ga Vladimir Fučijaš i Obrad Kosovac. Prvi suradnici bili su dobar poznavalac zagrebačke povijesti Pavao Cindrić i svestrani stručnjak za likovnu umjetnost Matko Peić. Poslije se postupno širio krug autora, ali je jezgru redakcije uvijek činilo samo nekoliko ljudi. Od početka osnovni kriterij... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011120000 +0200" stop="20181011121500 +0200">
+<title lang="hr">Dnevnik 1</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Najgledanija informativna emisija HRT-a s pregršt najnovijih vijesti iz zemlja i svijeta, reportaža, javljanja uživo, intervjua, sporta, vremena...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011121500 +0200" stop="20181011121800 +0200">
+<title lang="hr">Sport</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svakodnevne sportske vijesti odmah nakon dnevnika i prije prognoze vremena.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011121800 +0200" stop="20181011122800 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011122800 +0200" stop="20181011131800 +0200">
+<title lang="hr">Spone ljubavi, telenovela</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Helo pokušava ganuti Herculesa da je pusti. Tiao i Pedro ju pokušavaju naći. Tiago posjeti Leticiju. Antoniju to smeta. Marina nazove tvornicu kako bi razgovarala s Tiagom. Yara, Ritinha i Juninho tješe gđu Silviju. Ciro odlazi u zatvor. Tiago se ne javlja Marini na telefon. Helo moli Herculesa da je pusti na toalet. Tiao zapovjedi Valdiru da nađe Magnoliju. Tiao govori Gigi o Heloinoj otmici. Gigi govori Marini što zna o Heloinom nestanku. Leticia zamjera Antoniju i Tiagu njihovu svađu zbog nje... (više na http://tvprofil.net)</desc>
+<episode-num>142</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181011131800 +0200" stop="20181011140300 +0200">
+<title lang="hr">Dr. Oz, talk-show</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Bademovo mlijeko došlo je na loš glas. Neki čak tvrde da uopće ne sadrži bademe. Istražili smo to i donosimo rezultate. Pogledajte i koje su dobre strane konzumacije raznih mlijeka dobivenih od orašastih plodova i koja je opcija za vas najbolja. Može li kruh povećati rizik od Alzheimerove bolesti? Upoznajte čovjeka koji tvrdi da ima odgovor na to pitanje.
+Odabrala: Martina Rajšek</desc>
+<episode-num>24</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181011140300 +0200" stop="20181011143000 +0200">
+<title lang="hr">Dhruv Baker: Iz Hrvatske s ljubavlju, dokumentarna serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Grad Zagreb je metropola prepuna kulinarskih utjecaja sa svih strana svijeta. No, Dhruva prvenstveno zanimaju autentična jela i kvalitetne namirnice kojima Zagreb itekako obiluje. U ovoj epizodi Dhruv nas oduševljava kuhanjem ajngemahtesa na Zrinjevcu, pripremom zagrebačkog odreska na Strossmayerovom šetalištu i patke s mlincima ispred zagrebačkih fontana.
+Proizvodnja: Mak Production</desc>
+<episode-num>5</episode-num>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011143000 +0200" stop="20181011150000 +0200">
+<title lang="hr">Prometej</title>
+<category lang="hr">serija</category>
+<desc lang="hr">U Prometeju, emisiji koja popularizira svijet znanja i novih spoznaja, danas pogledajte:
+U rubrici Big bang o čitanju knjiga kao sasvim jedinstvenom fenomenu imanentnom samo čovjeku;
+Otkrivamo svijet novih ideja, onih s računalnim vidom;
+Upoznajmo znanost s potpisom doc. dr. sc. Vladimira Stilinovića;
+Jeste li znali znanstvenu istinu o fenomenu prilagodbe i suočavanja djeteta sa svijetom netom nakon poroda?</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011150000 +0200" stop="20181011153500 +0200">
+<title lang="hr">Dobar dan, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Nova poslijepodnevna emisija svaki će dan od 15 do 16 sati, od ponedjeljka do petka, pratiti aktualna zbivanja u svim segmentima života. Bavit će se problemima djece - zdrave i bolesne, starijima, zaposlenima i nezaposlenima, osobama s poteškoćama, ljudima koji se svakodnevno bore s teškim životnim uvjetima...
+Reporteri emisije bit će jednako prisutni i u gradu i na selu, pratit će humanitarne projekte...
+Na kraju svake emisije Dobar dan, Hrvatska naši najveći jezični stručnjaci analizirat će ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011153500 +0200" stop="20181011154200 +0200">
+<title lang="hr">Dobar dan, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Nova poslijepodnevna emisija svaki će dan od 15 do 16 sati, od ponedjeljka do petka, pratiti aktualna zbivanja u svim segmentima života. Bavit će se problemima djece - zdrave i bolesne, starijima, zaposlenima i nezaposlenima, osobama s poteškoćama, ljudima koji se svakodnevno bore s teškim životnim uvjetima...
+Reporteri emisije bit će jednako prisutni i u gradu i na selu, pratit će humanitarne projekte...
+Na kraju svake emisije Dobar dan, Hrvatska naši najveći jezični stručnjaci analizirat će ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011154200 +0200" stop="20181011154500 +0200">
+<title lang="hr">Dobar dan, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Nova poslijepodnevna emisija svaki će dan od 15 do 16 sati, od ponedjeljka do petka, pratiti aktualna zbivanja u svim segmentima života. Bavit će se problemima djece - zdrave i bolesne, starijima, zaposlenima i nezaposlenima, osobama s poteškoćama, ljudima koji se svakodnevno bore s teškim životnim uvjetima...
+Reporteri emisije bit će jednako prisutni i u gradu i na selu, pratit će humanitarne projekte...
+Na kraju svake emisije Dobar dan, Hrvatska naši najveći jezični stručnjaci analizirat će ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011154500 +0200" stop="20181011155300 +0200">
+<title lang="hr">Dobar dan, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Nova poslijepodnevna emisija svaki će dan od 15 do 16 sati, od ponedjeljka do petka, pratiti aktualna zbivanja u svim segmentima života. Bavit će se problemima djece - zdrave i bolesne, starijima, zaposlenima i nezaposlenima, osobama s poteškoćama, ljudima koji se svakodnevno bore s teškim životnim uvjetima...
+Reporteri emisije bit će jednako prisutni i u gradu i na selu, pratit će humanitarne projekte...
+Na kraju svake emisije Dobar dan, Hrvatska naši najveći jezični stručnjaci analizirat će ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011155300 +0200" stop="20181011163500 +0200">
+<title lang="hr">Frankie Drake istražuje</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Kada Frankie dobije misteriozan špijunski poziv, Mary otkrije kako su se Trudy i ona upoznale i kako je oformljena njihova detektivska agencija.</desc>
+<episode-num>11</episode-num>
+<star-rating><value>7.9/10</value></star-rating>
+</programme>
+<programme channel="htv1.hr" start="20181011163500 +0200" stop="20181011164000 +0200">
+<title lang="hr">Bonton: Kako se riješiti nametljivih poziva</title>
+<desc lang="hr">‘Bonton’, trominutna emisija posvećena lijepom ponašanju, prikazivat će se svaki radni dan na prvom programu Hrvatske radio televizije s ciljem da na zanimljiv donese podatke o tome kako se ponašati u različitim situacijama u kojima se gotovo svakodnevno nađemo.</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011164000 +0200" stop="20181011170000 +0200">
+<title lang="hr">TV Kalendar</title>
+<category lang="hr">show</category>
+<desc lang="hr">TV kalendar, jedna od najdugovječnijih emisija na Hrvatskoj televiziji, prvi je put emitiran na Radio-televiziji Zagreb u subotu 3. siječnja 1976. u 15.30, prije točno 35 godina. Svih tih godina uređivali su ga Vladimir Fučijaš i Obrad Kosovac. Prvi suradnici bili su dobar poznavalac zagrebačke povijesti Pavao Cindrić i svestrani stručnjak za likovnu umjetnost Matko Peić. Poslije se postupno širio krug autora, ali je jezgru redakcije uvijek činilo samo nekoliko ljudi. Od početka osnovni kriterij... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181011170000 +0200" stop="20181011171400 +0200">
+<title lang="hr">Vijesti u 17</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Tijekom petnaest minuta gledateljima će biti ponuđen pregled svih relevantnih zbivanja koja su se dogodila tijekom dana, a posebice u razdoblju od podnevnoga Dnevnika do 17 sati.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011171400 +0200" stop="20181011171500 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011171500 +0200" stop="20181011172000 +0200">
+<title lang="hr">HAK - promet info</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Informacije o prometu, stanju i uvjetima na cestama od strane Hrvatskog Auto Kluba.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011172000 +0200" stop="20181011181000 +0200">
+<title lang="hr">Kod nas doma</title>
+<category lang="hr">serija</category>
+<desc lang="hr">U novoj mozaičnoj emisiji Kod nas doma uživo od ponedjeljka do petka na Prvom programu HTV-a u svijet popularne kulture, glazbe, gastronomije, mode, hobija, arhitekture, dizajna, moderne psihologije vode vas Barbara Kolar i Iva Šulentić.
+Rubrika Dom donosi priče o stanovima, ljudima koji u njima žive, arhitektima i dizajnerima koji su te prostore prilagodili njihovim životnim potrebama i navikama.
+U rubrici Volim zeleno predstavljamo zanimljive ljude i nove trendove urbanoga vrtlarstva, zelenu... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011181000 +0200" stop="20181011185800 +0200">
+<title lang="hr">Potjera</title>
+<category lang="hr">show</category>
+<desc lang="hr">U Potjeri četiri natjecatelja odgovaraju na pitanja općeg znanja i istovremeno grade taktiku koja će ih dovesti do finalnog kruga. Međutim, na putu im stoji Lovac. To je neuobičajeni protivnik koji u uzbudljivoj igri znanja i brzine želi natjecatelje izbaciti iz igre i onemogućiti ih da osvoje desetke tisuća kuna.
+
+U voditeljskoj ulozi je Tarik Filipović. Kviz Potjera hrvatska je inačica popularnog kviza The Chase koji se na britanskom ITV-ju emitira od 2009. godine.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011185800 +0200" stop="20181011190000 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011190000 +0200" stop="20181011194400 +0200">
+<title lang="hr">Dnevnik 2</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Najgledanija informativna emisija HRT-a s pregršt najnovijih vijesti iz zemlja i svijeta, reportaža, javljanja uživo, intervjua, sporta, vremena...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011194400 +0200" stop="20181011194700 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011194700 +0200" stop="20181011200000 +0200">
+<title lang="hr">Tema dana</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Što je obilježilo današnji dan, o čemu ste razgovarali, što ste komentirali s obitelji i prijateljima? Tema dana obrađuje i analizira aktualne teme i događaje, koji su obilježili dan, dajući im širi kontekst, u koji su uključeni akteri i stručnjaci, politički lideri i dr. Po uzoru na emisije sličnog tipa s vodećih europskih televizijskih kuća - očekujte pitanja i intervjue koji idu u srž problema, s namjerom da se pojasni, informira i educira. Tema dana imat će goste u studiju ili izvan njega, u... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011200000 +0200" stop="20181011200500 +0200">
+<title lang="hr">Loto 6/45</title>
+<desc lang="hr">Provjerite imate li ovaj tjedan sreće u lotu 6/45.
+Svake nedjelje u 20:05 pratite izvlačenje brojeva Hrvatske lutrije.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011200500 +0200" stop="20181011210000 +0200">
+<title lang="hr">Šifra</title>
+<category lang="hr">show</category>
+<desc lang="hr">Četvrtkom na Prvom programu gledat ćemo novi domaći kviz ŠIFRA koji HRT realizira u suradnji s produkcijskom kućom Tvornica bitova.
+
+ŠIFRA je kviz znanja u kojem natjecatelj odgovara na pitanja općeg znanja u tri kruga natjecanja kako bi došao do finalne igre. U svakom krugu dobiva po 5 pitanja. Svako pitanje ima 4 ponuđena odgovora, označena brojkama od 1 do 4, od kojih je samo jedan odgovor točan. Redni brojevi odgovora svakog od 5 pitanja u krugu čine peteroznamenkastu šifru.
+
+Samo u sluč... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011210000 +0200" stop="20181011220000 +0200">
+<title lang="hr">Puls</title>
+<desc lang="hr">U emisiji:
+Je li u Irskoj doista trava zelenija? Kakva su iskustva onih koji su otišli?
+Naša ekipa isprobala je stari običaj. Pošli su na Biokovo &quot;usić leda&quot;!
+Ljetovanje na otoku je divno. No, biste li mogli živjeti na njemu?
+Dokazao se kao reporter. A kako Edin Mahmuljin podnosi prave udarce?
+Urednica projekta: Maja Tokić
+Urednica i voditeljica: Morana Kasapović</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011220000 +0200" stop="20181011225200 +0200">
+<title lang="hr">Otvoreno</title>
+<desc lang="hr">Emisija OTVORENO emitira se tri puta tjedno i bavi se jednom aktualnom temom. Namijenjena je javnoj raspravi u kojoj sudjeluju značajne osobe iz javnog života, a obrađuje aktualne društvene i političke teme.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011225200 +0200" stop="20181011230700 +0200">
+<title lang="hr">Dnevnik 3</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Najgledanija informativna emisija HRT-a s pregršt najnovijih vijesti iz zemlja i svijeta, reportaža, javljanja uživo, intervjua, sporta, vremena...</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011230700 +0200" stop="20181011231100 +0200">
+<title lang="hr">Sport</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Svakodnevne sportske vijesti odmah nakon dnevnika i prije prognoze vremena.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011231100 +0200" stop="20181011231300 +0200">
+<title lang="hr">Vrijeme</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Vremenska prognoza za Hrvatsku za sutra i sljedeća 3 dana, s meteorološkim komentarom i zanimljivostima, po potrebi i upozorenjima na opasne vremenske pojave.
+Sastoji se od:
+- prognoze naoblake i polja prizemnog tlaka zraka s frontalnim poremećajima nad Europom;
+- podrobne prognoze za sutra za 12 manjih područja u Hrvatskoj i 7 područja susjednih zemalja, u obliku znakova značajnog vremena te najčešće najniže i najviše temperature zraka;
+- prognoze značajnog vjetra i valovitosti mora za noć ... (više na http://tvprofil.net)</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011231300 +0200" stop="20181011232300 +0200">
+<title lang="hr">Vijesti iz kulture</title>
+<category lang="hr">vijesti</category>
+<desc lang="hr">Informativna emisija usredotočena na kulturna događanja.
+Vijesti iz kulture donose nam pregled dnevnih i tjednih kulturnih događaja.</desc>
+</programme>
+<programme channel="htv1.hr" start="20181011232300 +0200" stop="20181011234300 +0200">
+<title lang="hr">Brooklyn 99, humoristična serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Charles je smislio detaljni lov na blago u povodu Jakeove momačke večeri, ali sve krene nizbrdo kada ga dečki odluče bojkotirati. Za to vrijeme na Amynoj djevojačkoj večeri izbije sveopći kaos kad cure saznaju da je buduća mladenka spavala s članom svadbenog benda.
+Uloge: Andy Samberg (detektiv Jake Peralta), Andre Braugher (kapetan Ray Holt), Terry Crews (narednik Terry Jeffords), Melissa Fumero (detektivka Amy Santiago), Joe Lo Truglio (detektiv Charles Boyle), Stephanie Beatriz (detektivka Ro... (više na http://tvprofil.net)</desc>
+<episode-num>19</episode-num>
+</programme>
+<programme channel="htv1.hr" start="20181011234300 +0200" stop="20181012002600 +0200">
+<title lang="hr">Frankie Drake istražuje</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Kada Frankie dobije misteriozan špijunski poziv, Mary otkrije kako su se Trudy i ona upoznale i kako je oformljena njihova detektivska agencija.</desc>
+<episode-num>11</episode-num>
+<star-rating><value>7.9/10</value></star-rating>
+</programme>
+<programme channel="htv1.hr" start="20181012002600 +0200" stop="20181012011100 +0200">
+<title lang="hr">Veterinar Engel, serija</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Ulrich Hallhuber i Sibylle von Karlshagen u obilasku nekog planinskog sela s okružnim upraviteljem Solingerom sklapaju pogodbu. Solinger obećava novčanu potporu za Hallhuberove turističke planove, ali zauzvrat želi pravo na korištenje močvarne Tannhäuserove jame kao odlagališta otpada.
+Uloge: Wolfgang Fierek (dr. Quirin Engel), Susanne Czepl (Angelika Engel), Theresia Fendt (Anja Engel), Fabian König (Sebastian Engel) Veronika Fitz (Gerlinde Schneider), Julia Dahmen (Rebecca Seidlitz), Saskia Va... (više na http://tvprofil.net)</desc>
+<episode-num>9</episode-num>
+<rating><value>12</value></rating>
+</programme>
+
+<programme channel="htv1.hr" start="20181012011100 +0200" stop="20181012015200 +0200">
+<title lang="hr">Dr. Oz, talk-show</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Bademovo mlijeko došlo je na loš glas. Neki čak tvrde da uopće ne sadrži bademe. Istražili smo to i donosimo rezultate. Pogledajte i koje su dobre strane konzumacije raznih mlijeka dobivenih od orašastih plodova i koja je opcija za vas najbolja. Može li kruh povećati rizik od Alzheimerove bolesti? Upoznajte čovjeka koji tvrdi da ima odgovor na to pitanje.
+Odabrala: Martina Rajšek</desc>
+<episode-num>24</episode-num>
+<rating><value>12</value></rating>
+</programme>
+<programme channel="htv1.hr" start="20181012015200 +0200" stop="20181012024200 +0200">
+<title lang="hr">Dobar dan, Hrvatska</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Nova poslijepodnevna emisija svaki će dan od 15 do 16 sati, od ponedjeljka do petka, pratiti aktualna zbivanja u svim segmentima života. Bavit će se problemima djece - zdrave i bolesne, starijima, zaposlenima i nezaposlenima, osobama s poteškoćama, ljudima koji se svakodnevno bore s teškim životnim uvjetima...
+Reporteri emisije bit će jednako prisutni i u gradu i na selu, pratit će humanitarne projekte...
+Na kraju svake emisije Dobar dan, Hrvatska naši najveći jezični stručnjaci analizirat će ... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+
+<programme channel="htv1.hr" start="20181012024200 +0200" stop="20181012032500 +0200">
+<title lang="hr">Dolina sunca</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Shrvana tragičnom smrću supruga, mlada biokemičarka Eva Kralj (Ana Vilenica) skupi dovoljno snage za uputiti se u gradić Jablanovo odjaviti njegov ured i pritom skoro nastrada. Na prvi pogled ju oduševi pitomi krajolik Jablanova i ona iznenada, na zaprepaštenje sestre Stele (Barbara Prpić Biffel) odlučuje započeti novi život upravo u ovom provincijskom gradu. Obitelj Vitezović priprema svadbu za svog mlađeg sina Jurana (Petar Ćiritović) ne sumnjajući u motive njegove ženidbe s dobrodušnom Natašo... (više na http://tvprofil.net)</desc>
+<episode-num>32</episode-num>
+</programme>
+<programme channel="htv1.hr" start="20181012032500 +0200" stop="20181012033500 +0200">
+<title lang="hr">Skica za portret</title>
+<category lang="hr">dokumentarni</category>
+<desc lang="hr">Upoznajte neke nove portrete ljudi koji su promijenili povijest Hrvatske.
+Biografije nekih manje poznatih ljudi koji su pridonijeli hrvatskoj kulturi i povijesti, a sada su nepravedno zaboravljeni.</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181012033500 +0200" stop="20181012034700 +0200">
+<title lang="hr">Fotografija u Hrvatskoj</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Portret jednog od hrvatskih fotografa.
+Emisija u 10 minuta donosi fotografije jednog hrvatskog umjetnika.</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181012034700 +0200" stop="20181012041100 +0200">
+<title lang="hr">Eko zona</title>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181012041100 +0200" stop="20181012050100 +0200">
+<title lang="hr">Klub 7</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Klub 7 novi je lifestyle magazin koji na afirmativan i zabavan način prikazuje aktualna društvena zbivanja u Hrvatskoj i svijetu s raznolikih zbivanja - od mode, glazbe, hrane, do umjetnosti, turizma, sporta...
+Klub 7 donosi intervju tjedna, reportaže sa svjetskih tjedana mode te najljepše kuće i vile. Uz razgovore s arhitektima, poznatim poduzetnicima i uspješnim ljudima u svojim područjima, tu su i prilozi o zdravlju i ljepoti, izvještaji s najboljih festivala i koncerata te otvorenja izložbi ... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181012050100 +0200" stop="20181012054700 +0200">
+<title lang="hr">Kod nas doma</title>
+<category lang="hr">serija</category>
+<desc lang="hr">U novoj mozaičnoj emisiji Kod nas doma uživo od ponedjeljka do petka na Prvom programu HTV-a u svijet popularne kulture, glazbe, gastronomije, mode, hobija, arhitekture, dizajna, moderne psihologije vode vas Barbara Kolar i Iva Šulentić.
+Rubrika Dom donosi priče o stanovima, ljudima koji u njima žive, arhitektima i dizajnerima koji su te prostore prilagodili njihovim životnim potrebama i navikama.
+U rubrici Volim zeleno predstavljamo zanimljive ljude i nove trendove urbanoga vrtlarstva, zelenu... (više na http://tvprofil.net)</desc>
+<previously-shown />
+</programme>
+<programme channel="htv1.hr" start="20181012054700 +0200" stop="20181012063400 +0200">
+<title lang="hr">Spone ljubavi, telenovela</title>
+<category lang="hr">serija</category>
+<desc lang="hr">Helo pokušava ganuti Herculesa da je pusti. Tiao i Pedro ju pokušavaju naći. Tiago posjeti Leticiju. Antoniju to smeta. Marina nazove tvornicu kako bi razgovarala s Tiagom. Yara, Ritinha i Juninho tješe gđu Silviju. Ciro odlazi u zatvor. Tiago se ne javlja Marini na telefon. Helo moli Herculesa da je pusti na toalet. Tiao zapovjedi Valdiru da nađe Magnoliju. Tiao govori Gigi o Heloinoj otmici. Gigi govori Marini što zna o Heloinom nestanku. Leticia zamjera Antoniju i Tiagu njihovu svađu zbog nje... (više na http://tvprofil.net)</desc>
+<episode-num>142</episode-num>
+<rating><value>12</value></rating>
+</programme>
+</tv>
