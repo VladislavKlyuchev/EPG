@@ -48,20 +48,23 @@ DirectoryWatcher.create("./xmls", function(err, watcher) {
         //console.log(data.slice(0, 520));
         const el = await parser(data);
         const programm = el.root.children.filter(el => el.name == "programme");
+
         const result = programm.map(el => {
           return {
             name: el.name,
-            startDate: el.attributes.start,
-            endDate: el.attributes.stop,
+            startDate: moment(el.attributes.start, "YYYYMMDDHHmmss ZZ").format(
+              "YYYY-MM-DD HH:mm"
+            ),
+            endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
+              "YYYY-MM-DD HH:mm"
+            ),
             key: el.attributes.channel,
             title: el.children.find(h => h.name == "title").content,
             description: el.children.find(h => h.name == "desc").content
           };
         });
 
-        await models.epg.bulkCreate(result, {
-          updateOnDuplicate: ["name"]
-        });
+        await models.epg.bulkCreate(result);
       });
     });
   });
