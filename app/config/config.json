@@ -1,23 +1,23 @@
 {
-	"development": {
-		"username": "root",
-		"password": "tvgpasswd44",
-		"database": "EPG",
-		"host": "127.0.0.1",
-		"dialect": "mysql"
-	},
-	"test": {
-		"username": "root",
-		"password": "qwerty",
-		"database": "",
-		"host": "",
-		"dialect": "mysql"
-	},
-	"production": {
-		"username": "",
-		"password": null,
-		"database": "",
-		"host": "127.0.0.1",
-		"dialect": "mysql"
-	}
+  "development": {
+    "username": "root",
+    "password": "tvgpasswd44",
+    "database": "EPG",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "qwerty",
+    "database": "",
+    "host": "",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "",
+    "password": null,
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
 }

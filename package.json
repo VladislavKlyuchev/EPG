@@ -35,6 +35,7 @@
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "sequelize": "^3.30.1",
+    "xml-parse": "^0.3.1",
     "xml-parser": "^1.2.1",
     "xml2js": "^0.4.19",
     "xml2json": "^0.11.2"
