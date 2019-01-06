@@ -43,7 +43,7 @@ app.use((req, res, next) => {
 DirectoryWatcher.create("./xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     files.forEach(element => {
-      fs.readFile(__dirname + "/xmls/" + element, "utf8", async (err, data) => {
+      fs.readFile(__dirname + element, "utf8", async (err, data) => {
         if (err) console.log(err);
         //console.log(data.slice(0, 520));
         const el = await parser(data);
@@ -73,7 +73,7 @@ DirectoryWatcher.create("./xmls", function(err, watcher) {
 
   watcher.on("add", function(files) {
     files.forEach(element => {
-      fs.readFile(__dirname + "/xmls/" + element, "utf8", async (err, data) => {
+      fs.readFile(__dirname + element, "utf8", async (err, data) => {
         if (err) console.log(err);
         //console.log(data.slice(0, 520));
         const el = await parser(data);
