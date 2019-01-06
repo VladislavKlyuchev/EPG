@@ -72,31 +72,32 @@ DirectoryWatcher.create("./xmls", function(err, watcher) {
   watcher.on("delete", function(files) {});
 
   watcher.on("add", function(files) {
-	files.forEach(element => {
-		fs.readFile(__dirname + "/xmls/" + element, "utf8", async (err, data) => {
-		  if (err) console.log(err);
-		  //console.log(data.slice(0, 520));
-		  const el = await parser(data);
-		  const programm = el.root.children.filter(el => el.name == "programme");
-  
-		  const result = programm.map(el => {
-			return {
-			  name: el.name,
-			  startDate: moment(el.attributes.start, "YYYYMMDDHHmmss ZZ").format(
-				"YYYY-MM-DD HH:mm"
-			  ),
-			  endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
-				"YYYY-MM-DD HH:mm"
-			  ),
-			  key: el.attributes.channel,
-			  title: el.children.find(h => h.name == "title").content,
-			  description: el.children.find(h => h.name == "desc").content
-			};
-		  });
-  
-		  await models.epg.bulkCreate(result);
-		});
-	  });
+    files.forEach(element => {
+      fs.readFile(__dirname + "/xmls/" + element, "utf8", async (err, data) => {
+        if (err) console.log(err);
+        //console.log(data.slice(0, 520));
+        const el = await parser(data);
+        const programm = el.root.children.filter(el => el.name == "programme");
+
+        const result = programm.map(el => {
+          return {
+            name: el.name,
+            startDate: moment(el.attributes.start, "YYYYMMDDHHmmss ZZ").format(
+              "YYYY-MM-DD HH:mm"
+            ),
+            endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
+              "YYYY-MM-DD HH:mm"
+            ),
+            key: el.attributes.channel,
+            title: el.children.find(h => h.name == "title").content,
+            description: el.children.find(h => h.name == "desc").content
+          };
+        });
+
+        await models.epg.bulkCreate(result);
+      });
+    });
+  });
 });
 //load passport strategies
 require("./app/config/passport/passport.js")(passport, models.users);
