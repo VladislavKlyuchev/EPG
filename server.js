@@ -47,8 +47,10 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
     console.log(JSON.stringify(files));
     files.forEach(element => {
       console.log("Файл:", element);
+      console.log(path.resolve(__dirname, element));
       fs.readFile("/home/vlad/EPG/xmls/", "utf8", async (err, data) => {
         if (err) console.log(err);
+
         //console.log(data.slice(0, 520));
         const el = await parser(data);
         const programm = el.root.children.filter(el => el.name == "programme");
