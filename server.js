@@ -45,6 +45,7 @@ console.log(__dirname + "/xmls");
 DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     files.forEach(element => {
+      console.log("Файл:", element);
       fs.readFile("/home/vlad/EPG/xmls/", "utf8", async (err, data) => {
         if (err) console.log(err);
         //console.log(data.slice(0, 520));
