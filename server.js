@@ -40,9 +40,12 @@ app.use((req, res, next) => {
     next();
   }
 });
+console.log(__dirname);
+console.log(__dirname + "/xmls");
 DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     files.forEach(element => {
+      console.log("/home/vlad/EPG/xmls/" + element);
       fs.readFile(
         "/home/vlad/EPG/xmls/" + element,
         "utf8",
