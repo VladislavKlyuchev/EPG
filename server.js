@@ -46,14 +46,12 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     console.log(JSON.stringify(files));
     files.forEach(element => {
-      console.log("Файл:", element);
-      console.log(path.resolve(__dirname, path.basename(element)));
       fs.readFile(
         "/home/vlad/EPG/xmls/TV_Pack.xml",
         "utf8",
         async (err, data) => {
           if (err) console.log(err);
-          console.log(data);
+
           //console.log(data.slice(0, 520));
           const el = await parser(data);
           const programm = el.root.children.filter(
@@ -83,7 +81,7 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   });
 
   watcher.on("delete", function(files) {});
-
+  /*
   watcher.on("add", function(files) {
     files.forEach(element => {
       fs.readFile(
@@ -94,7 +92,7 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
 
           //console.log(data.slice(0, 520));
           const el = await parser(data);
-          console.log(JSON.stringify(el).slice(0, 500));
+         
           const programm = el.root.children.filter(
             el => el.name == "programme"
           );
@@ -120,7 +118,9 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
       );
     });
   });
+*/
 });
+
 //load passport strategies
 require("./app/config/passport/passport.js")(passport, models.users);
 app.get("/epg", async (req, res) => {
