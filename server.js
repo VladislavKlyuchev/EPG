@@ -40,7 +40,7 @@ app.use((req, res, next) => {
     next();
   }
 });
-DirectoryWatcher.create(__dirname + "/xmls", function(err, watcher) {
+DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     files.forEach(element => {
       fs.readFile(element, "utf8", async (err, data) => {
