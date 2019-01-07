@@ -87,7 +87,7 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.on("add", function(files) {
     files.forEach(element => {
       fs.readFile(
-        path.resolve(__dirname + "./xmls/", element),
+        "/home/vlad/EPG/xmls/TV_Pack.xml",
         "utf8",
         async (err, data) => {
           if (err) console.log(err);
