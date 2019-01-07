@@ -40,10 +40,10 @@ app.use((req, res, next) => {
     next();
   }
 });
-DirectoryWatcher.create("./xmls", function(err, watcher) {
+DirectoryWatcher.create(__dirname + "/xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     files.forEach(element => {
-      fs.readFile(element.path, "utf8", async (err, data) => {
+      fs.readFile(element, "utf8", async (err, data) => {
         if (err) console.log(err);
         //console.log(data.slice(0, 520));
         const el = await parser(data);
@@ -73,7 +73,7 @@ DirectoryWatcher.create("./xmls", function(err, watcher) {
 
   watcher.on("add", function(files) {
     files.forEach(element => {
-      fs.readFile(element.path, "utf8", async (err, data) => {
+      fs.readFile(element, "utf8", async (err, data) => {
         if (err) console.log(err);
         //console.log(data.slice(0, 520));
         const el = await parser(data);
