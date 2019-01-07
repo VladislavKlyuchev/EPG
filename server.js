@@ -91,9 +91,10 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
         "utf8",
         async (err, data) => {
           if (err) console.log(err);
-          console.log(data);
+
           //console.log(data.slice(0, 520));
           const el = await parser(data);
+          console.log(JSON.stringify(el).slice(0, 500));
           const programm = el.root.children.filter(
             el => el.name == "programme"
           );
