@@ -67,8 +67,12 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
                   "YYYY-MM-DD HH:mm"
                 ),
                 key: el.attributes.channel,
-                title: el.children.find(h => h.name == "title").content,
-                description: el.children.find(h => h.name == "desc").content
+                title: el.children.find(h => h.name == "title")
+                  ? el.children.find(h => h.name == "title").content
+                  : null,
+                description: el.children.find(h => h.name == "desc")
+                  ? el.children.find(h => h.name == "desc").content
+                  : null
               };
             });
 
