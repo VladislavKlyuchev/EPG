@@ -40,8 +40,6 @@ app.use((req, res, next) => {
     next();
   }
 });
-console.log(__dirname);
-console.log(__dirname + "/xmls");
 DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     console.log(JSON.stringify(files));
@@ -57,24 +55,27 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
           const programm = el.root.children.filter(
             el => el.name == "programme"
           );
+          try {
+            const result = programm.map(el => {
+              return {
+                name: el.name,
+                startDate: moment(
+                  el.attributes.start,
+                  "YYYYMMDDHHmmss ZZ"
+                ).format("YYYY-MM-DD HH:mm"),
+                endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
+                  "YYYY-MM-DD HH:mm"
+                ),
+                key: el.attributes.channel,
+                title: el.children.find(h => h.name == "title").content,
+                description: el.children.find(h => h.name == "desc").content
+              };
+            });
 
-          const result = programm.map(el => {
-            return {
-              name: el.name,
-              startDate: moment(
-                el.attributes.start,
-                "YYYYMMDDHHmmss ZZ"
-              ).format("YYYY-MM-DD HH:mm"),
-              endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
-                "YYYY-MM-DD HH:mm"
-              ),
-              key: el.attributes.channel,
-              title: el.children.find(h => h.name == "title").content,
-              description: el.children.find(h => h.name == "desc").content
-            };
-          });
-
-          await models.epg.bulkCreate(result);
+            await models.epg.bulkCreate(result);
+          } catch (e) {
+            console.error(e);
+          }
         }
       );
     });
