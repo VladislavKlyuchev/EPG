@@ -44,6 +44,8 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.once("change", function(files) {
     console.log(JSON.stringify(files));
     files.forEach(element => {
+      console.log(element);
+      return;
       fs.readFile(
         "/home/vlad/EPG/xmls/TV_Pack.xml",
         "utf8",
