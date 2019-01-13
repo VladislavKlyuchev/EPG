@@ -89,7 +89,7 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   });
   */
   watcher.on("delete", function(files) {});
-  
+
   watcher.on("add", function(files) {
     files.forEach(element => {
       console.log(element);
@@ -102,7 +102,7 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
 
           //console.log(data.slice(0, 520));
           const el = await parser(data);
-         
+
           const programm = el.root.children.filter(
             el => el.name == "programme"
           );
@@ -128,7 +128,6 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
       );
     });
   });
-*/
 });
 
 //load passport strategies
