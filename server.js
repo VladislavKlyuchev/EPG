@@ -97,6 +97,7 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
         "/home/vlad/EPG/xmls/" + element,
         "utf8",
         async (err, data) => {
+          console.log(element);
           if (err) console.log(err);
 
           //console.log(data.slice(0, 520));
