@@ -93,37 +93,42 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
   watcher.on("add", function(files) {
     files.forEach(element => {
       console.log(element);
-      return;
       fs.readFile(
-        "/home/vlad/EPG/xmls/TV_Pack.xml",
+        "/home/vlad/EPG/xmls/" + element,
         "utf8",
         async (err, data) => {
           if (err) console.log(err);
 
           //console.log(data.slice(0, 520));
           const el = await parser(data);
-
           const programm = el.root.children.filter(
             el => el.name == "programme"
           );
+          try {
+            const result = programm.map(el => {
+              return {
+                name: el.name,
+                startDate: moment(
+                  el.attributes.start,
+                  "YYYYMMDDHHmmss ZZ"
+                ).format("YYYY-MM-DD HH:mm"),
+                endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
+                  "YYYY-MM-DD HH:mm"
+                ),
+                key: el.attributes.channel,
+                title: el.children.find(h => h.name == "title")
+                  ? el.children.find(h => h.name == "title").content
+                  : null,
+                description: el.children.find(h => h.name == "desc")
+                  ? el.children.find(h => h.name == "desc").content
+                  : null
+              };
+            });
 
-          const result = programm.map(el => {
-            return {
-              name: el.name,
-              startDate: moment(
-                el.attributes.start,
-                "YYYYMMDDHHmmss ZZ"
-              ).format("YYYY-MM-DD HH:mm"),
-              endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
-                "YYYY-MM-DD HH:mm"
-              ),
-              key: el.attributes.channel,
-              title: el.children.find(h => h.name == "title").content,
-              description: el.children.find(h => h.name == "desc").content
-            };
-          });
-
-          await models.epg.bulkCreate(result);
+            await models.epg.bulkCreate(result);
+          } catch (e) {
+            console.error(e);
+          }
         }
       );
     });
