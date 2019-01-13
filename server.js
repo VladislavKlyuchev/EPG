@@ -41,6 +41,7 @@ app.use((req, res, next) => {
   }
 });
 DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
+  /*
   watcher.once("change", function(files) {
     console.log(JSON.stringify(files));
     files.forEach(element => {
@@ -86,11 +87,13 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
       );
     });
   });
-
+  */
   watcher.on("delete", function(files) {});
-  /*
+  
   watcher.on("add", function(files) {
     files.forEach(element => {
+      console.log(element);
+      return;
       fs.readFile(
         "/home/vlad/EPG/xmls/TV_Pack.xml",
         "utf8",
