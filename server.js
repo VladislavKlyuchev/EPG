@@ -148,7 +148,7 @@ app.get("/epg", async (req, res) => {
       }
     }
   });
-  res.json(test);
+  res.json(test || []);
   res.end();
 });
 // invoice operators
