@@ -93,7 +93,7 @@ DirectoryWatcher.create("xmls", function(err, watcher) {
   watcher.on("add", function(files) {
     files.forEach(element => {
       try {
-        fs.readFile("./xmls/" + element, "utf8", async (err, data) => {
+        fs.readFile("xmls/" + element, "utf8", async (err, data) => {
           console.log(55);
           if (err) console.log(err);
 
