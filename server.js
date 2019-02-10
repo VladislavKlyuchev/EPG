@@ -93,46 +93,51 @@ DirectoryWatcher.create("xmls", function(err, watcher) {
   watcher.on("add", function(files) {
     files.forEach(element => {
       try {
-        fs.readFile("xmls/" + element, "utf8", async (err, data) => {
-          console.log(55);
-          if (err) console.log(err);
+        fs.readFile(
+          path.resolve(__dirname, element),
+          "utf8",
+          async (err, data) => {
+            console.log(55);
+            if (err) console.log(err);
 
-          const el = await parser(data);
-          const programm = el.root.children.filter(
-            el => el.name == "programme"
-          );
+            const el = await parser(data);
+            const programm = el.root.children.filter(
+              el => el.name == "programme"
+            );
 
-          try {
-            const result = programm.map(el => {
-              return {
-                name: el.name,
-                startDate: moment(
-                  el.attributes.start,
-                  "YYYYMMDDHHmmss ZZ"
-                ).format("YYYY-MM-DD HH:mm"),
-                endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
-                  "YYYY-MM-DD HH:mm"
-                ),
-                lang: el.children.find(h => h.name == "title")
-                  ? el.children.find(h => h.name == "title").attributes.lang
-                  : "ru",
-                key: el.attributes.channel,
-                title: el.children.find(h => h.name == "title")
-                  ? el.children.find(h => h.name == "title").content
-                  : null,
-                description: el.children.find(h => h.name == "desc")
-                  ? el.children.find(h => h.name == "desc").content
-                  : null
-              };
-            });
-            result.forEach(async el => {
-              models.epg.create(el);
-            });
-            // await models.epg.bulkCreate(result);
-          } catch (e) {
-            console.error(e);
+            try {
+              const result = programm.map(el => {
+                return {
+                  name: el.name,
+                  startDate: moment(
+                    el.attributes.start,
+                    "YYYYMMDDHHmmss ZZ"
+                  ).format("YYYY-MM-DD HH:mm"),
+                  endDate: moment(
+                    el.attributes.stop,
+                    "YYYYMMDDHHmmss ZZ"
+                  ).format("YYYY-MM-DD HH:mm"),
+                  lang: el.children.find(h => h.name == "title")
+                    ? el.children.find(h => h.name == "title").attributes.lang
+                    : "ru",
+                  key: el.attributes.channel,
+                  title: el.children.find(h => h.name == "title")
+                    ? el.children.find(h => h.name == "title").content
+                    : null,
+                  description: el.children.find(h => h.name == "desc")
+                    ? el.children.find(h => h.name == "desc").content
+                    : null
+                };
+              });
+              result.forEach(async el => {
+                models.epg.create(el);
+              });
+              // await models.epg.bulkCreate(result);
+            } catch (e) {
+              console.error(e);
+            }
           }
-        });
+        );
       } catch (error) {
         console.error(error);
       }
