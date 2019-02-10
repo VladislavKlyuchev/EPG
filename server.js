@@ -98,7 +98,7 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
       console.log(element);
       try {
         fs.readFile(
-          path.resolve(__dirname, "./" + element),
+          path.resolve(__dirname, "./xmls/" + element),
           "utf8",
           async (err, data) => {
             console.log(55);
