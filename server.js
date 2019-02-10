@@ -104,6 +104,7 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
         );
         console.log(1);
         const el = await parser(data);
+        console.log(el);
         const programm = el.root.children.filter(el => el.name == "programme");
         const result = programm.map(el => {
           return {
