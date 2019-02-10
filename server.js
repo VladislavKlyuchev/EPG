@@ -40,7 +40,7 @@ app.use((req, res, next) => {
     next();
   }
 });
-DirectoryWatcher.create("xmls", function(err, watcher) {
+DirectoryWatcher.create(path.resolve(__dirname, '/xmls')), function(err, watcher) {
   /*
   watcher.once("change", function(files) {
     console.log(JSON.stringify(files));
@@ -94,7 +94,7 @@ DirectoryWatcher.create("xmls", function(err, watcher) {
     files.forEach(element => {
       try {
         fs.readFile(
-          path.resolve(__dirname, element),
+          path.resolve(__dirname, './' +element),
           "utf8",
           async (err, data) => {
             console.log(55);
