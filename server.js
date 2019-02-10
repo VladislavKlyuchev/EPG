@@ -102,7 +102,7 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
           path.resolve(__dirname, "./xmls/" + element),
           "utf8"
         );
-
+        console.log(1);
         const result = programm.map(el => {
           return {
             name: el.name,
