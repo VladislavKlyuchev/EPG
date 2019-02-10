@@ -93,8 +93,8 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
   */
   //watcher.on("delete", function(files) {});
 
-  watcher.on("add", async function(files) {
-    files.forEach(element => {
+  watcher.on("add", function(files) {
+    files.forEach(async element => {
       console.log(element);
       console.log(path.resolve(__dirname, "./xmls/" + element));
       try {
@@ -103,10 +103,8 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
           "utf8"
         );
         console.log(1);
-        const el = await parser(data)
-        const programm = el.root.children.filter(
-          el => el.name == "programme"
-        );
+        const el = await parser(data);
+        const programm = el.root.children.filter(el => el.name == "programme");
         const result = programm.map(el => {
           return {
             name: el.name,
