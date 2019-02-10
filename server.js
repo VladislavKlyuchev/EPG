@@ -98,11 +98,12 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
       console.log(element);
       console.log(path.resolve(__dirname, "./xmls/" + element));
       try {
-        data = fs.readFileSync(
+        const data = fs.readFileSync(
           path.resolve(__dirname, "./xmls/" + element),
           "utf8"
         );
         console.log(1);
+        console.log(data);
         const el = await parser(data);
         console.log(el);
         const programm = el.root.children.filter(el => el.name == "programme");
