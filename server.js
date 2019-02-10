@@ -95,6 +95,7 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
 
   watcher.on("add", function(files) {
     files.forEach(element => {
+      console.log(element);
       try {
         fs.readFile(
           path.resolve(__dirname, "./" + element),
