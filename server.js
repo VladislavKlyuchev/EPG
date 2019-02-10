@@ -40,7 +40,7 @@ app.use((req, res, next) => {
     next();
   }
 });
-DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
+DirectoryWatcher.create("xmls", function(err, watcher) {
   /*
   watcher.once("change", function(files) {
     console.log(JSON.stringify(files));
@@ -88,23 +88,20 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
     });
   });
   */
-  watcher.on("delete", function(files) {});
+  //watcher.on("delete", function(files) {});
 
   watcher.on("add", function(files) {
     files.forEach(element => {
-      console.log(element);
-      fs.readFile(
-        "/home/vlad/EPG/xmls/" + element,
-        "utf8",
-        async (err, data) => {
-          console.log(element);
+      try {
+        fs.readFile("./xmls/" + element, "utf8", async (err, data) => {
+          console.log(55);
           if (err) console.log(err);
 
-          //console.log(data.slice(0, 520));
           const el = await parser(data);
           const programm = el.root.children.filter(
             el => el.name == "programme"
           );
+
           try {
             const result = programm.map(el => {
               return {
@@ -116,6 +113,9 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
                 endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
                   "YYYY-MM-DD HH:mm"
                 ),
+                lang: el.children.find(h => h.name == "title")
+                  ? el.children.find(h => h.name == "title").attributes.lang
+                  : "ru",
                 key: el.attributes.channel,
                 title: el.children.find(h => h.name == "title")
                   ? el.children.find(h => h.name == "title").content
@@ -125,13 +125,17 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
                   : null
               };
             });
-
-            await models.epg.bulkCreate(result);
+            result.forEach(async el => {
+              models.epg.create(el);
+            });
+            // await models.epg.bulkCreate(result);
           } catch (e) {
             console.error(e);
           }
-        }
-      );
+        });
+      } catch (error) {
+        console.error(error);
+      }
     });
   });
 });
@@ -139,10 +143,11 @@ DirectoryWatcher.create("/home/vlad/EPG/xmls", function(err, watcher) {
 //load passport strategies
 require("./app/config/passport/passport.js")(passport, models.users);
 app.get("/epg", async (req, res) => {
-  const { key, startDate, endDate } = req.query;
+  const { key, startDate, endDate, lang } = req.query;
   const test = await models.epg.findAll({
     where: {
       key: key,
+      lang: lang ? lang : "ru",
       startDate: {
         $between: [startDate, endDate]
       }
