@@ -47,7 +47,7 @@ var watcher = chokidar.watch(path.resolve(__dirname, "./xmls"), {
 });
 
 watcher
-  .on("add", function(path) {
+  .on("add", await function(path) {
     console.log("File", path, "has been added");
     var data = fs.readFileSync(path, "utf8");
     console.log(data.length);
