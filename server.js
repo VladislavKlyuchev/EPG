@@ -55,7 +55,37 @@ watcher
   .on("change", function(path) {
     console.log("File", path, "has been changed");
     var data = fs.readFileSync(path, "utf8");
-    console.log(data.length);
+    const el = await parser(data);
+    const programm = el.root.children.filter(
+      el => el.name == "programme"
+    );
+    const result = programm.map(el => {
+      return {
+        name: el.name,
+        startDate: moment(
+          el.attributes.start,
+          "YYYYMMDDHHmmss ZZ"
+        ).format("YYYY-MM-DD HH:mm"),
+        endDate: moment(
+          el.attributes.stop,
+          "YYYYMMDDHHmmss ZZ"
+        ).format("YYYY-MM-DD HH:mm"),
+        lang: el.children.find(h => h.name == "title")
+          ? el.children.find(h => h.name == "title").attributes.lang
+          : "ru",
+        key: el.attributes.channel,
+        title: el.children.find(h => h.name == "title")
+          ? el.children.find(h => h.name == "title").content
+          : null,
+        description: el.children.find(h => h.name == "desc")
+          ? el.children.find(h => h.name == "desc").content
+          : null
+      };
+    });
+    
+    result.forEach(async el => {
+      models.epg.create(el);
+    });
   })
   .on("unlink", function(path) {
     console.log("File", path, "has been removed");
@@ -63,120 +93,7 @@ watcher
   .on("error", function(error) {
     console.error("Error happened", error);
   });
-/*
-DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
-  err,
-  watcher
-) {
-  /*
-  watcher.once("change", function(files) {
-    console.log(JSON.stringify(files));
-    files.forEach(element => {
-      console.log(element);
-      return;
-      fs.readFile(
-        "/home/vlad/EPG/xmls/TV_Pack.xml",
-        "utf8",
-        async (err, data) => {
-          if (err) console.log(err);
 
-          //console.log(data.slice(0, 520));
-          const el = await parser(data);
-          const programm = el.root.children.filter(
-            el => el.name == "programme"
-          );
-          try {
-            const result = programm.map(el => {
-              return {
-                name: el.name,
-                startDate: moment(
-                  el.attributes.start,
-                  "YYYYMMDDHHmmss ZZ"
-                ).format("YYYY-MM-DD HH:mm"),
-                endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
-                  "YYYY-MM-DD HH:mm"
-                ),
-                key: el.attributes.channel,
-                title: el.children.find(h => h.name == "title")
-                  ? el.children.find(h => h.name == "title").content
-                  : null,
-                description: el.children.find(h => h.name == "desc")
-                  ? el.children.find(h => h.name == "desc").content
-                  : null
-              };
-            });
-
-            await models.epg.bulkCreate(result);
-          } catch (e) {
-            console.error(e);
-          }
-        }
-      );
-    });
-  });
-  
-  //watcher.on("delete", function(files) {});
-
-  watcher.on(
-    "add",
-    function(files) {
-      setTimeout(() => {
-        files.forEach(async element => {
-          console.log(element);
-          console.log(path.resolve(__dirname, "./xmls/" + element));
-          try {
-            const data = fs.readFile(
-              path.resolve(__dirname, "./xmls/" + element),
-              "utf8",
-              async (err, data) => {
-                console.log(data.length);
-                console.log(1);
-                const el = await parser(data);
-                const programm = el.root.children.filter(
-                  el => el.name == "programme"
-                );
-                const result = programm.map(el => {
-                  return {
-                    name: el.name,
-                    startDate: moment(
-                      el.attributes.start,
-                      "YYYYMMDDHHmmss ZZ"
-                    ).format("YYYY-MM-DD HH:mm"),
-                    endDate: moment(
-                      el.attributes.stop,
-                      "YYYYMMDDHHmmss ZZ"
-                    ).format("YYYY-MM-DD HH:mm"),
-                    lang: el.children.find(h => h.name == "title")
-                      ? el.children.find(h => h.name == "title").attributes.lang
-                      : "ru",
-                    key: el.attributes.channel,
-                    title: el.children.find(h => h.name == "title")
-                      ? el.children.find(h => h.name == "title").content
-                      : null,
-                    description: el.children.find(h => h.name == "desc")
-                      ? el.children.find(h => h.name == "desc").content
-                      : null
-                  };
-                });
-                /*
-                result.forEach(async el => {
-                  models.epg.create(el);
-                });
-                
-              }
-            );
-
-            // await models.epg.bulkCreate(result);
-          } catch (error) {
-            console.error(error);
-          }
-        });
-      });
-    },
-    10000
-  );
-});
-*/
 //load passport strategies
 require("./app/config/passport/passport.js")(passport, models.users);
 app.get("/epg", async (req, res) => {
