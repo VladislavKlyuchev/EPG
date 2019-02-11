@@ -105,10 +105,9 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
               path.resolve(__dirname, "./xmls/" + element),
               "utf8"
             );
+            console.log(data.length);
             console.log(1);
-            console.log(data);
             const el = await parser(data);
-            console.log(el);
             const programm = el.root.children.filter(
               el => el.name == "programme"
             );
