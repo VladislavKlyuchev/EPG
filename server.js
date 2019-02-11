@@ -101,42 +101,47 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
           console.log(element);
           console.log(path.resolve(__dirname, "./xmls/" + element));
           try {
-            const data = fs.readFileSync(
+            const data = fs.readFile(
               path.resolve(__dirname, "./xmls/" + element),
-              "utf8"
+              "utf8",
+              async (err, data) => {
+                console.log(data.length);
+                console.log(1);
+                const el = await parser(data);
+                const programm = el.root.children.filter(
+                  el => el.name == "programme"
+                );
+                const result = programm.map(el => {
+                  return {
+                    name: el.name,
+                    startDate: moment(
+                      el.attributes.start,
+                      "YYYYMMDDHHmmss ZZ"
+                    ).format("YYYY-MM-DD HH:mm"),
+                    endDate: moment(
+                      el.attributes.stop,
+                      "YYYYMMDDHHmmss ZZ"
+                    ).format("YYYY-MM-DD HH:mm"),
+                    lang: el.children.find(h => h.name == "title")
+                      ? el.children.find(h => h.name == "title").attributes.lang
+                      : "ru",
+                    key: el.attributes.channel,
+                    title: el.children.find(h => h.name == "title")
+                      ? el.children.find(h => h.name == "title").content
+                      : null,
+                    description: el.children.find(h => h.name == "desc")
+                      ? el.children.find(h => h.name == "desc").content
+                      : null
+                  };
+                });
+                /*
+                result.forEach(async el => {
+                  models.epg.create(el);
+                });
+                */
+              }
             );
-            console.log(data.length);
-            console.log(1);
-            const el = await parser(data);
-            const programm = el.root.children.filter(
-              el => el.name == "programme"
-            );
-            const result = programm.map(el => {
-              return {
-                name: el.name,
-                startDate: moment(
-                  el.attributes.start,
-                  "YYYYMMDDHHmmss ZZ"
-                ).format("YYYY-MM-DD HH:mm"),
-                endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
-                  "YYYY-MM-DD HH:mm"
-                ),
-                lang: el.children.find(h => h.name == "title")
-                  ? el.children.find(h => h.name == "title").attributes.lang
-                  : "ru",
-                key: el.attributes.channel,
-                title: el.children.find(h => h.name == "title")
-                  ? el.children.find(h => h.name == "title").content
-                  : null,
-                description: el.children.find(h => h.name == "desc")
-                  ? el.children.find(h => h.name == "desc").content
-                  : null
-              };
-            });
 
-            result.forEach(async el => {
-              models.epg.create(el);
-            });
             // await models.epg.bulkCreate(result);
           } catch (error) {
             console.error(error);
