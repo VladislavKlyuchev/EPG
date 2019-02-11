@@ -54,6 +54,8 @@ watcher
   })
   .on("change", function(path) {
     console.log("File", path, "has been changed");
+    var data = fs.readFileSync(path, "utf8");
+    console.log(data.length);
   })
   .on("unlink", function(path) {
     console.log("File", path, "has been removed");
