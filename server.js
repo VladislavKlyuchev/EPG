@@ -13,6 +13,7 @@ var moment = require("moment");
 var sessionController = require("./app/controllers/sessioncontroller.js");
 var cron = require("node-cron");
 var DirectoryWatcher = require("directory-watcher");
+var chokidar = require("chokidar");
 //For BodyParser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -40,6 +41,27 @@ app.use((req, res, next) => {
     next();
   }
 });
+var watcher = chokidar.watch(path.resolve(__dirname, "./xmls"), {
+  ignored: /^\./,
+  persistent: true
+});
+
+watcher
+  .on("add", function(path) {
+    console.log("File", path, "has been added");
+    var data = fs.readFileSync(path, "utf8");
+    console.log(data.length);
+  })
+  .on("change", function(path) {
+    console.log("File", path, "has been changed");
+  })
+  .on("unlink", function(path) {
+    console.log("File", path, "has been removed");
+  })
+  .on("error", function(error) {
+    console.error("Error happened", error);
+  });
+/*
 DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
   err,
   watcher
@@ -90,7 +112,7 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
       );
     });
   });
-  */
+  
   //watcher.on("delete", function(files) {});
 
   watcher.on(
@@ -138,7 +160,7 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
                 result.forEach(async el => {
                   models.epg.create(el);
                 });
-                */
+                
               }
             );
 
@@ -152,7 +174,7 @@ DirectoryWatcher.create(path.resolve(__dirname, "./xmls"), function(
     10000
   );
 });
-
+*/
 //load passport strategies
 require("./app/config/passport/passport.js")(passport, models.users);
 app.get("/epg", async (req, res) => {

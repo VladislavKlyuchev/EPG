@@ -19,6 +19,7 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.16.0",
+    "chokidar": "^2.1.0",
     "cors": "^2.8.4",
     "directory-watcher": "^2.0.3",
     "dotenv": "^4.0.0",
