@@ -49,10 +49,41 @@ var watcher = chokidar.watch(path.resolve(__dirname, "./xmls"), {
 watcher
   .on("add", function(path) {
     console.log("File", path, "has been added");
+    var data = fs.readFileSync(path, "utf8");
+    console.log(data.length);
+    const el = await parser(data);
+    const programm = el.root.children.filter(el => el.name == "programme");
+    const result = programm.map(el => {
+      return {
+        name: el.name,
+        startDate: moment(el.attributes.start, "YYYYMMDDHHmmss ZZ").format(
+          "YYYY-MM-DD HH:mm"
+        ),
+        endDate: moment(el.attributes.stop, "YYYYMMDDHHmmss ZZ").format(
+          "YYYY-MM-DD HH:mm"
+        ),
+        lang: el.children.find(h => h.name == "title")
+          ? el.children.find(h => h.name == "title").attributes.lang
+          : "ru",
+        key: el.attributes.channel,
+        title: el.children.find(h => h.name == "title")
+          ? el.children.find(h => h.name == "title").content
+          : null,
+        description: el.children.find(h => h.name == "desc")
+          ? el.children.find(h => h.name == "desc").content
+          : null
+      };
+    });
+
+    result.forEach(async el => {
+      models.epg.create(el);
+    });
   })
   .on("change", async function(path) {
     console.log("File", path, "has been changed");
+
     var data = fs.readFileSync(path, "utf8");
+    console.log(data.length);
     const el = await parser(data);
     const programm = el.root.children.filter(el => el.name == "programme");
     const result = programm.map(el => {
